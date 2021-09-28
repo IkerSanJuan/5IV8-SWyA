@@ -24,8 +24,8 @@ var cesar = cesar  || (function(){
 
         })();
         var re = (/[a-z]/ig);
-        return String(txt).replace(re, function(match){
-            return replace(match);
+        return String(txt).remplazo(re, function(match){
+            return remplazo(match);
         })
     };
     return{
